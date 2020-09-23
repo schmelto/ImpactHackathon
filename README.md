@@ -11,7 +11,7 @@ Repository for the Impact Hackathon 2020 of Campus Founders
 
 
 
-## The collboraors
+## The team
 
 |Name|GitHub|
 |----------|--------|
