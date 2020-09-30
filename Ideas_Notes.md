@@ -10,16 +10,16 @@ IDEENSAMMLUNG
 * Ist es sinnvoll, dass jeder in der perfekten Wohngegend wohnt? -> Silobildung
 * Wie kann man die perfekte Wohngegend finden?
 
-=> ggf. auch erstmal die Fragestellung von #CampusLife auseinandernehmen und einzelne Worte analysieren wie z.b. Wohngegend, perfekt, finden
+:arrow_right: ggf. auch erstmal die Fragestellung von #CampusLife auseinandernehmen und einzelne Worte analysieren wie z.b. Wohngegend, perfekt, finden
 
-=> möglicher Meilensteinplan dazu, wie man dazu kommt, dass man die perfekte Wohngegend findet
+:arrow_right: möglicher Meilensteinplan dazu, wie man dazu kommt, dass man die perfekte Wohngegend findet
 * Was macht eine Nachbarschaft aus? Welche Daten?
 * Welche Daten alles nutzen, um die perfekte Wohngegend zu finden?
 * Woher bekommt man die Daten?
 * Neue Daten hinzufügen?
 * Datenpools sammeln, wer erhebt die Daten (ggf. Leute einbinden & befragen)
 
-** => Hotelauswahl -> wird teilweise ja auch zb. angezeigt, dass da oft Singles einchecken oder Familien => ist vom grundkonzept ja ähnlich, daher ggf. das als AUFHÄNGER FÜR DIE PRÄSENTATION und das Thema **
+**:arrow_right: Hotelauswahl -> wird teilweise ja auch zb. angezeigt, dass da oft Singles einchecken oder Familien -> ist vom grundkonzept ja ähnlich, daher ggf. das als AUFHÄNGER FÜR DIE PRÄSENTATION und das Thema**
 
 
 
@@ -46,7 +46,7 @@ IDEENSAMMLUNG
 * auch mögliche zukünftige Paramteränderungen beim Bewohner berücksichtigen -> Analyse was könnte sich ändern & das mit einbringen 
 * Datenlebenszyklus? -> wie ändern sich die Faktoren im Laufe des Lebens und wie könnte das berücksichtig werden, um die Wohngegend auszuwählen, damit sie möglichst wenig gewechselt werden muss?
 
-=> Frage: inwiefern werden zukünftige Entscheidungen des Bewohners dadurch beeinflusst, z.b. Kindergarten der gebaut wird, und bis zu welchem Rahmen ist das vertretbar?
+:arrow_right: Frage: inwiefern werden zukünftige Entscheidungen des Bewohners dadurch beeinflusst, z.b. Kindergarten der gebaut wird, und bis zu welchem Rahmen ist das vertretbar?
 
 
 
@@ -62,7 +62,7 @@ IDEENSAMMLUNG
 ### Bereitstellung der Anwendung/Lösung/Nachbarschaftsvorschlagsgenerator:
 * ausgehend von einer offiziellen öffentlichen Stelle (hosting, bereitstellen) -> damit das anerkannt ist
 
-** => ggf. im ersten Schritt um sich dem Thema anzunähern eine Plattform aufziehen, auf der verschiedene Wohngegenden a la Hotelzimmerbuchungen gelistet sind, wo man dann mit verschiedenen Kriterien (& gewichtungen diesere) filtern kann und sich die dann genauer anschauen kann, ggf. Bewertungen, digitale Rundgänge + Möglichkeiten um Probe zu wohnen??? => PROTOTYP des ganzen **
+**:arrow_right: ggf. im ersten Schritt um sich dem Thema anzunähern eine Plattform aufziehen, auf der verschiedene Wohngegenden a la Hotelzimmerbuchungen gelistet sind, wo man dann mit verschiedenen Kriterien (& gewichtungen diesere) filtern kann und sich die dann genauer anschauen kann, ggf. Bewertungen, digitale Rundgänge + Möglichkeiten um Probe zu wohnen??? => PROTOTYP des ganzen**
 
 
 
