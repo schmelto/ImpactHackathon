@@ -9,9 +9,7 @@ Repository for the Impact Hackathon 2020 of Campus Founders
 
 ## Place for some ideas
 
-
-* How can the three challaneges connect to each other?
-* Which organization/institution should provide a 'find the perfect neighborhood' software to get the trust of the most people? 
+[Ideas](Ideas_Notes.md)
 
 ## Ressources
 
