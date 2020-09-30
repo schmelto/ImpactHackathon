@@ -16,6 +16,7 @@ Repository for the Impact Hackathon 2020 of Campus Founders
 ## Ressources
 
 * https://knightfoundation.org/sotc/
+* https://www.youtube.com/watch?v=ng3X39lenvg&ab_channel=ToyotaUK
 
 ## The team
 
