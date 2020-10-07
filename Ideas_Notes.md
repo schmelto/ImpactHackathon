@@ -7,7 +7,7 @@ IDEENSAMMLUNG
 ### Fragen, die man sich erst mal stellen sollte (ggf. auch in der Präsentation am Anfang erwähnen und dann nacheinander beantworten):
 * Will man überhaupt die perfekte Wohngegend finden? -> Wahrscheinlich würde zuerst jeder ja sagen ABER wenn man genauer darüber nachdenkt...
 * Kann man überhaupt die perfekte Wohngegend finden?
-* Ist es sinnvoll, dass jeder in der perfekten Wohngegend wohnt? -> Silobildung
+* Ist es sinnvoll, dass jeder in der perfekten Wohngegend wohnt? -> Silobildung, wie Blasen in Social Media
 * Wie kann man die perfekte Wohngegend finden?
 
 :arrow_right: ggf. auch erstmal die Fragestellung von #CampusLife auseinandernehmen und einzelne Worte analysieren wie z.b. Wohngegend, perfekt, finden, ...
