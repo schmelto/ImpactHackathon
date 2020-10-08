@@ -1,5 +1,8 @@
 # ImpactHackathon
-Repository for the Impact Hackathon 2020 of Campus Founders
+Repository for the Impact Hackathon 2020 of Campus Founders.
+
+* **Start:** 5:00 PM Friday 9th 2020
+* **End:** 5:00 PM Sunday 11th 2020
 
 ## The challanges
 
