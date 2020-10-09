@@ -26,5 +26,5 @@ Repository for the Impact Hackathon 2020 of Campus Founders.
 |Katharina Ehrmann  |[kela4](https://github.com/kela4)          |
 |Tom Schmelzer      |[schmelto](https://github.com/schmelto)    |
 |Jano Lange         |[janolange](https://github.com/janolange)  |
-|Sönke Köster       |[snackomat](https://github.com/snackomat   |
+|Sönke Köster       |[snackomat](https://github.com/snackomat)  |
 |Maximilian Körner  |[Maxxxmkr](https://github.com/Maxxxmkr)    |
