@@ -6,6 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class TestService {
 
+
   readonly BaseURI = 'vortex.cubuzz.de:8500';
 
   constructor(private http: HttpClient) { }

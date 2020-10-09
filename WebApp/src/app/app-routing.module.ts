@@ -8,6 +8,7 @@ import { PageNotFoundComponent } from './_template/page-not-found/page-not-found
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: 'home', component: HomeComponent, pathMatch: 'full' },
   { path: 'profil', component: ProfilComponent, pathMatch: 'full' },
   { path: 'filter', component: FilterComponent, pathMatch: 'full' },
   { path: 'chat', component: ChatComponent, pathMatch: 'full' },
