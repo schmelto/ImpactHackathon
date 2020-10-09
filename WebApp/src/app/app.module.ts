@@ -11,6 +11,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FilterComponent } from './filter/filter.component';
 import { ProfilComponent } from './profil/profil.component';
 import { ChatComponent } from './chat/chat.component';
+import { HttpClientModule } from '@angular/common/http';
+import { PageNotFoundComponent } from './_template/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +22,15 @@ import { ChatComponent } from './chat/chat.component';
     FooterComponent,
     FilterComponent,
     ProfilComponent,
-    ChatComponent
+    ChatComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
