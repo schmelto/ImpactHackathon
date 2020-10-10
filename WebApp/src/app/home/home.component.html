@@ -1,16 +1,13 @@
 <mat-card class="card">
 
     <mat-card-header>
-        <div mat-card-avatar class="example-header-image"></div>
-        <mat-card-title>Shiba Inu</mat-card-title>
-        <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+        <mat-card-title>{{currentdata$.title}}</mat-card-title>
+        <mat-card-subtitle>{{currentdata$.type}}</mat-card-subtitle>
       </mat-card-header>
-      <img mat-card-image class="img" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+      <img mat-card-image class="img" src="{{currentdata$.imgurl}}" alt="Photo of a Shiba Inu">
       <mat-card-content>
         <p>
-          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-          A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-          bred for hunting.
+          {{currentdata$.description}}
         </p>
       </mat-card-content>
       <mat-card-actions>
@@ -22,28 +19,19 @@
 
 </mat-card>
 
-<p>{{data$}}</p>
+
+
 
 <div class="d-flex justify-content-center">
-    <div class="row">
-      <div class="col">
-        <a href="/chat"><span class="material-icons">
-            keyboard_arrow_left
-            </span></a>
-      </div>
-      <div class="col">
-        <a href="/home">
-            <span class="material-icons">
-                info
-                </span></a>
-      </div>
-      <div class="col">
-        <a href="/filter"><span class="material-icons">
-            keyboard_arrow_right
-            </span></a>
-      </div>
+  <div class="row">
+    <div class="col">
+      <button (click)="nextdata()" mat-fab color="primary" aria-label="Example icon button with a delete icon">
+        <mat-icon>thumb_down</mat-icon>
+      </button>
     </div>
+    <div class="col">
+      <button (click)="nextdata()" mat-fab color="accent" aria-label="Example icon button with a delete icon">
+        <mat-icon>thumb_up</mat-icon>
+      </button>
   </div>
-
-
-<button (click)="test()">TEST</button>
+</div>
