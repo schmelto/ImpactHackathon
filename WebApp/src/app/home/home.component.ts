@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   constructor(public service: TestService,public dialog: MatDialog, private _snackBar: MatSnackBar) { }
 
   openDialog(){
-    this.dialog.open(DialogElementsExampleDialog, {data: this.currentdata$});
+    this.dialog.open(DetailsDialog, {data: this.currentdata$});
   }
   index = -1;
   currentdata$;
@@ -27,6 +27,7 @@ export class HomeComponent implements OnInit {
    loadData() {
     this.service.getTest().subscribe((data: any) => {
       this.data$ = data;
+      console.log(data);
     });
   }
 
@@ -56,7 +57,7 @@ export class HomeComponent implements OnInit {
   selector: 'details-dialog',
   templateUrl: 'details-dialog.html',
 })
-export class DialogElementsExampleDialog {
+export class DetailsDialog {
   constructor(@Inject(MAT_DIALOG_DATA) public data: any) {}
 }
 
