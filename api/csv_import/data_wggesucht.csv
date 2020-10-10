@@ -1,0 +1,304 @@
+nr_of_roommates;city_area;address;price_in_EUR;square_meters;available_from;available_to
+5;Heilbronn;Wilhelmstra e 17   ;435;16;01.11.2020;
+6;Heilbronn;Erhardgasse 17    ;400;23;01.11.2020;
+4;Heilbronn;Schulgasse 9    ;530;20;05.10.2020;
+3;B ckingen; Rombachstra e 4  ;500;14;05.10.2020;
+3;Sontheim;Rethelstra e 16   ;320;10;01.10.2020;
+4;Heilbronn;Neckarsulmerstrasse 7    ;370;18;05.10.2020;
+4;Heilbronn;Neckarsulmer Strasse 7   ;320;10;05.10.2020;01.12.2021
+4;Heilbronn;Hiplerweg 8    ;301;17;05.10.2020;
+3;Heilbronn;Urbanstra e 1   ;410;14;16.10.2020;
+3;Heilbronn;Steinstr 58    ;445;19;15.11.2020;
+3;Heilbronn;Schmollerstra e 62 1  ;400;19;01.11.2020;
+4;Heilbronn;Gutenbergstr 27    ;381;9;05.10.2020;
+3;Heilbronn;Von Witzleben Str   ;400;18;01.11.2020;
+3;Heilbronn;Von Witzleben Str   ;400;21;15.10.2020;
+3;Heilbronn;Dammstra e 62   ;406;14;05.10.2020;
+3;Sontheim;Pilgramstr 14    ;310;10;01.11.2020;
+10;Horkheim;Hohenloher Str    ;30;10;05.10.2020;01.11.2021
+3;Heilbronn;Silcherstrasse 80    ;390;20;05.10.2020;
+4;Heilbronn;Ludwig Pfau Stra e  ;410;12;15.10.2020;
+8;Ost;Metzer Stra e   ;230;12;10.10.2020;
+3;Heilbronn;N he Paulinenstr   ;380;25;15.10.2020;22.12.2020
+4;Heilbronn;Karlstr 133 3   ;398;15;05.10.2020;
+4;Heilbronn;Allee 25    ;453;20;05.10.2020;
+2;Kirchhausen;tel erfragen    ;350;18;01.12.2020;30.06.2021
+2;Kirchhausen;tel erfragen    ;300;14;10.10.2020;30.06.2021
+3;unterhalb;Wartberg Linkstra e   ;380;22;05.10.2020;
+5;Heilbronn;Allee 73    ;438;19;05.10.2020;
+3;Heilbronn;Wilhelmstra e 40   ;415;22;09.10.2020;
+3;Sontheim;Spitzwegstr 23    ;330;15;05.10.2020;
+3;B ckingen; Strombergstrasse 1   ;363;20;05.10.2020;
+3;B ckingen; Strombergstrasse 1   ;328;12;05.10.2020;
+3;Heilbronn;Ost Habrechtstra e   ;450;19;05.10.2020;
+2;Sontheim;Staufenbergstra e 44   ;290;20;05.10.2020;
+3;Heilbronn;Stuggarter 29    ;405;14;13.10.2020;
+4;Heilbronn;S dstra e   ;300;20;01.11.2020;
+5;Heilbronn;Wartbergstr     ;390;25;04.10.2020;
+4;Heilbronn;Oststr 15    ;280;22;04.10.2020;03.01.2021
+4;Zentrum;Oststr 15    ;280;22;04.10.2020;03.01.2021
+2;Südviertel; Im Kohlpfad   ;350;13;11.10.2020;
+3;Heilbronn;Liebigstra e 11   ;360;13;04.10.2020;
+3;Heilbronn;Heilbronn     ;570;25;04.10.2020;
+4;Heilbronn;Hallerstr     ;296;16;04.10.2020;
+3;B ckingen; Stra e 8  ;320;12;12.10.2020;01.01.2022
+4;Heilbronn;Heinrich Heine Stra e 22 ;345;15;31.10.2020;
+5;Heilbronn;Allee 73    ;448;19;01.11.2020;
+6;Zentrum;Wilhelmstrasse 11    ;325;14;04.10.2020;
+6;Heilbronn;Werderstrasse     ;420;12;04.10.2020;
+3;Heilbronn;Ludwig Pfau Str   ;450;17;01.01.2021;
+4;Heilbronn;Guido Hauck Str 39  ;442;25;01.11.2020;
+4;Heilbronn;Viktor Scheffel Str   ;420;15;15.10.2020;
+2;Heilbronn;Beethoven Strasse 57   ;500;18;01.11.2020;30.04.2021
+4;Heilbronn;Gartenstrasse     ;560;20;01.11.2020;
+3;Heilbronn;Bahnhofstr 6 B   ;350;10;10.10.2020;
+3;Heilbronn;Schwibbogengasse 8    ;395;12;01.01.2021;
+3;Heilbronn;Garteng sschen    ;470;16;01.11.2020;
+3;Sontheim;Lutzstra e 1   ;350;13;04.10.2020;
+2;Heilbronn;Paulinenstra e 43   ;449;20;04.10.2020;
+2;Heilbronn;Paulinenstra e 43   ;449;20;05.10.2020;
+3;Heilbronn;Kunzestra e 14   ;290;20;04.10.2020;
+2;Heilbronn;Paulinenstra e 41   ;449;20;04.10.2020;
+4;Heilbronn;Dammstrasse 52 1   ;360;17;11.10.2020;
+4;B ckingen; Ludwig Essinger Str 7 ;350;11;11.10.2020;
+4;Heilbronn;Dammstrasse 52 1   ;380;17;11.10.2020;
+2;Heilbronn;Pf hlstr 68   ;350;12;04.10.2020;
+4;Untergruppenbach;Bosch Siegfried Levi Str 13 ;330;15;10.10.2020;
+3;B ckingen; Heckenstra e 14  ;340;14;04.10.2020;
+5;Heilbronn;Schmollerstra e 62 1  ;320;12;04.10.2020;20.11.2020
+2;B ckingen; Heidelbergerstr 57   ;350;13;04.10.2020;
+3;Sontheim;Liebigstra e 26   ;305;13;03.10.2020;
+3;Heilbronn;Stuttgarter Stra e 2  ;340;15;03.10.2020;
+3;Heilbronn;Stuttgarter Stra e 2  ;340;15;01.12.2020;
+6;Heilbronn;Hessigheimer Stra e   ;350;13;01.01.2021;
+4;Horkheim;Talheimerstr     ;330;14;03.10.2020;
+4;Horkheim;Talheimer Stra e   ;400;26;01.12.2020;
+3;Heilbronn;Schmollerstra e 62 1  ;400;19;01.11.2020;
+3;Heilbronn;Kleiststr 7    ;380;17;03.10.2020;
+3;Heilbronn;Schwindstr     ;330;12;03.10.2020;
+3;Heilbronn;Schwindstr     ;300;9;03.10.2020;
+3;Neckargartach;Liebermannstra e 6   ;340;14;15.10.2020;
+10;B ckingen; Heidelbergerstr    ;450;18;03.10.2020;
+3;Heilbronn;Schulgasse     ;310;8;03.10.2020;
+4;Sontheim;Friedrich D rr Str  ;365;15;03.10.2020;
+5;Heilbronn;Bahnhofstra e 25   ;332;20;03.10.2020;
+3;Sontheim;Robert Bosch Stra e 44 ;450;13;03.10.2020;
+3;Heilbronn;Keilstrasse     ;400;16;01.11.2020;
+3;B ckingen; Keilstra e 9  ;380;15;15.10.2020;
+3;Heilbronn;Bahnhofstr 27    ;357;17;01.11.2020;
+3;Heilbronn;Keilstrasse 9    ;380;15;15.10.2020;
+7;Heilbronn;Schwabstr 5    ;315;14;02.10.2020;
+7;Heilbronn;Schwabstr 5    ;315;15;02.10.2020;
+6;Heilbronn;Schwabstr 5    ;310;18;01.12.2020;
+3;Heilbronn;Schwindstr     ;355;15;02.10.2020;
+3;Heilbronn;Schulgasse 15    ;310;8;02.10.2020;
+2;Heilbronn;Rosenbergstr 34    ;478;20;01.11.2020;
+3;Heilbronn;Rosenbergstr 34    ;478;20;01.11.2020;
+3;Heilbronn;Rosenbergstr 34    ;478;20;01.11.2020;
+4;Sontheim;G ldensteinstra e 121  ;345;12;02.10.2020;
+2;Heilbronn;Bergstr 11    ;450;12;02.10.2020;
+3;Heilbronn;G tzenturmstr 33   ;425;14;02.10.2020;
+3;Heilbronn;Stadtmitte G tzenturmstr 33  ;395;11;02.10.2020;
+5;Sontheim;Kolping str 40   ;290;12;15.10.2020;
+5;Heilbronn;Wilhelmstra e 30   ;260;15;03.10.2020;01.03.2021
+2;Heilbronn;Hohenstaufenstra e    ;295;17;19.10.2020;31.12.2020
+3;Heilbronn;Werderstra e 145   ;405;18;05.10.2020;
+6;Heilbronn;Gerberstr 32 1   ;340;17;05.10.2020;
+6;Heilbronn;Gerberstra e 32   ;300;13;05.10.2020;
+2;Heilbronn;Guido Hauck Stra e  ;310;15;02.10.2020;31.03.2021
+3;Heilbronn;Schellengasse 10    ;290;12;01.11.2020;
+2;Heilbronn;lerchenstra 49    ;460;25;02.10.2020;
+3;B ckingen; Heidelbergerstra e 57  ;400;18;02.10.2020;
+5;Heilbronn;Burenstra e 71   ;470;25;01.10.2020;
+5;Heilbronn;Burenstra e 71   ;350;13;01.10.2020;
+3;Heilbronn;Uhlandstrasse     ;465;22;15.11.2020;
+3;Sontheim;Uhdestr     ;370;15;01.10.2020;
+3;Obersulm;Willsbach Veilchenweg 21   ;360;20;01.10.2020;
+4;B ckingen; Starenweg 16   ;360;25;01.11.2020;
+5;Sontheim;Horkheimer Stra e 18  ;385;20;01.10.2020;
+4;Heilbronn;Rosenbergstra e 17   ;400;18;01.10.2020;31.12.2020
+6;Heilbronn;Beethovenstra e 49   ;290;13;01.10.2020;28.02.2021
+3;Heilbronn;Werderstra e 172   ;298;18;01.12.2020;
+5;Heilbronn;Herbert Hoover 21   ;270;10;01.10.2020;
+3;Heilbronn;Allee 80    ;380;20;15.10.2020;
+4;Flein;Talstr 6    ;480;19;01.10.2020;
+4;Flein;Talstr 6    ;520;26;01.10.2020;
+4;Flein;Talstr 6    ;395;14;01.10.2020;
+3;Heilbronn;Silcherstra e    ;400;20;01.10.2020;
+4;Neckargartach;Mittelstrasse 25    ;330;11;01.01.2021;
+4;Neckargartach;Mittelstrasse 25    ;365;23;01.01.2021;30.09.2022
+3;Heilbronn;Bismarckstra e    ;320;16;01.10.2020;
+4;B ckingen; Heckenstr 55   ;390;16;01.10.2020;01.12.2020
+3;Heilbronn;Oststadt N he Pf hlpark ;280;12;01.10.2020;01.03.2021
+3;Frankenbach;W rzburgerstra e 31  ;375;20;01.11.2020;
+5;Heilbronn;Stra e 1   ;250;15;01.10.2020;
+5;Sontheim;Hofgartenstr 7    ;410;20;01.10.2020;
+3;Sontheim;Sommerau 24    ;340;15;01.10.2020;
+6;Heilbronn;KARLSTRASSE     ;400;17;15.10.2020;
+5;Heilbronn;Gellertstra e 83   ;300;13;30.09.2020;
+3;Heilbronn;Uhlandstr 77    ;450;25;01.10.2020;31.01.2021
+5;Heilbronn;Gellertstra e 83   ;490;20;30.09.2020;
+3;Heilbronn;Eppingerstr 39    ;420;15;01.10.2020;
+3;Heilbronn;Eppingerstr 39    ;380;11;01.10.2020;
+3;B ckingen; Eppingerstr 39   ;400;14;01.10.2020;
+3;Sontheim;Raidweg 24    ;350;15;03.10.2020;
+4;Heilbronn;Pf hlstra e 27  ;440;20;01.12.2020;
+3;Heilbronn;Olgastrasse 35    ;360;13;15.10.2020;
+4;B ckingen; Friedrichstra e 26  ;350;12;01.10.2020;
+3;Heilbronn;Uhlandstr 63    ;370;18;01.10.2020;
+4;Sontheim;Charlottenstra e 26   ;455;22;01.11.2020;
+3;Heilbronn;Schlegelstr 14    ;460;18;15.12.2020;
+3;Horkheim;Taxisstr 5    ;440;20;01.10.2020;
+4;Heilbronn;Hessigheimerstra e    ;330;18;01.12.2020;
+4;Heilbronn;Kernerstra e 62   ;370;17;15.10.2020;
+3;B ckingen; Heidelbergerstra e   ;400;20;15.11.2020;
+3;Heilbronn;Sichererstra e 15   ;380;20;29.11.2020;21.02.2021
+3;Sontheim;Robert Bosch Stra e  ;400;16;01.10.2020;
+3;Heilbronn;Wollhausstra e 119   ;280;15;01.01.2021;
+4;Heilbronn;Wilhelmstra e    ;306;8;01.10.2020;
+4;Sontheim;Lauffener Str 24   ;345;9;01.10.2020;
+3;Heilbronn;Kunzestr 12    ;265;12;07.10.2020;
+4;Heilbronn;N he Pf hlpark  ;290;15;28.09.2020;15.02.2021
+3;Heilbronn;Ost n he Pf hlpark ;285;12;28.09.2020;30.03.2021
+4;Lauffen;Bahnhofstr     ;300;16;01.10.2020;
+2;Heilbronn;Geibelstr 35    ;375;15;01.10.2020;
+3;Heilbronn;Herbert Hoover Stra e 37 ;380;16;10.10.2020;31.12.2022
+3;Heilbronn;M nchseestrasse 22   ;275;14;01.11.2020;01.12.2020
+5;Leingarten;Stra e 1   ;300;10;01.10.2020;
+2;Heilbronn;stuttgarter Str 2   ;257;15;01.11.2020;31.03.2021
+4;Heilbronn;Ilsfelder Stra e 9  ;380;10;30.10.2020;
+4;Heilbronn;Ilsfelder Stra e 9  ;430;14;01.12.2020;
+3;B ckingen; Heckenstr 55   ;320;11;01.11.2020;31.01.2021
+3;Heilbronn;Bauleuteweg 5    ;380;13;01.12.2020;
+4;B ckingen; Karl Marx Str 18 ;330;12;01.10.2020;
+5;B ckingen; Hoffstadtstra e 48 1 ;450;14;01.10.2020;
+3;Flein;Gartenstra e    ;335;12;26.09.2020;
+6;Heilbronn;Wilhelmstrasse 11    ;350;25;01.10.2020;
+3;Heilbronn;Ludwig Pfaustra e 2  ;360;17;25.09.2020;
+4;Heilbronn;Wilhelmstra e 58   ;495;24;01.10.2020;
+4;Heilbronn;Olgastrasse 35    ;360;12;01.10.2020;
+3;Heilbronn;Weststrasse 51    ;360;12;01.10.2020;
+3;Heilbronn;Weststrasse 51    ;390;18;01.10.2020;
+4;Heilbronn;Olgastrasse 35    ;380;17;01.10.2020;
+4;Heilbronn;Olgastrasse 35    ;360;12;01.10.2020;
+4;Heilbronn;Olgastrasse 35    ;360;12;01.10.2020;
+4;Heilbronn;Paulinenstrasse 43    ;350;17;01.10.2020;28.02.2021
+4;Heilbronn;S lmerstra e 21  ;350;13;24.09.2020;
+2;Sontheim;Mauserstra e 9   ;280;13;24.09.2020;
+2;Heilbronn;Z     ;380;14;24.09.2020;
+5;Innenstadt;Bahnhofstra e 25   ;380;22;01.10.2020;
+5;Heilbronn;Oststra e 9   ;390;12;01.09.2020;
+5;Heilbronn;Ostsra e 9   ;380;12;01.10.2020;
+3;Heilbronn;Schellengasse 15    ;415;18;15.10.2020;
+5;Sontheim;Zwirnereistr 12    ;310;15;01.10.2020;
+3;Heilbronn;Solothurner Stra e   ;375;17;01.10.2020;
+2;Heilbronn;Wackstrasse 12    ;367;21;01.10.2020;
+5;Flein;Neubrunnenstra e 19   ;260;14;01.10.2020;
+6;Heilbronn;Rollwagstra e    ;450;20;01.10.2020;
+3;Heilbronn;Maybachstr 26    ;300;13;01.10.2020;
+4;Neckargartach;Stettinerstra e 28   ;320;14;23.09.2020;
+2;Wartberg;Wartbergstr     ;610;11;01.10.2020;01.11.2020
+6;Heilbronn;Sichererstrasse 18    ;475;19;01.10.2020;
+5;Heilbronn;Sichererstra e 18   ;515;19;01.10.2020;
+2;Sontheim;Max Planck Str 27  ;297;15;01.10.2020;
+3;Sontheim;Robert Bosch Stra e 73 ;390;11;01.10.2020;
+3;Klingenberg;Raiffeisenstrasse 4 1   ;325;17;01.10.2020;
+4;Donnbronn;Untergruppenbach     ;20;18;01.10.2020;31.12.2020
+3;Heilbronn;Friedhofstrasse     ;420;17;01.10.2020;
+3;B ckingen; Fliederweg 00   ;435;16;28.09.2020;
+3;B ckingen; Im Kreuzgrund   ;375;12;28.09.2020;
+10;B ckingen; Strombergstra e 34  ;250;14;21.09.2020;
+10;B ckingen; Strombergstra e 32  ;250;20;21.09.2020;
+4;Heilbronn;Wilhelmstra e 42   ;390;17;28.09.2020;
+2;Sontheim;Mauserstra e 9   ;280;13;01.10.2020;
+3;Heilbronn;S dstra e 31  ;350;15;01.11.2020;
+3;B ckingen; Sperberweg 1   ;320;12;01.11.2020;
+4;B ckingen; Ludwigsburgerstr 278   ;270;15;01.10.2020;
+4;B ckingen; Ludwigsburgerstrasse 278   ;280;20;01.10.2020;
+4;B ckingen; Ludwigsburgerstr 278   ;235;9;01.10.2020;
+5;Flein;Neubrunnenstra e 19   ;260;14;01.10.2020;
+5;Heilbronn;Wartbergstra e 35   ;375;18;01.10.2020;
+2;Heilbronn;Grillparzerweg 2    ;360;13;01.10.2020;
+3;Kernstadt;Lixstr 20    ;420;17;18.09.2020;
+3;Heilbronn;weinsberger street 61   ;390;20;01.10.2020;
+4;Talheim;Frauenbergstr 1    ;340;22;01.10.2020;
+5;Heilbronn;Schaeuffelenstra e 25   ;430;26;01.11.2020;
+3;Heilbronn;Dammstra e 56 2  ;415;22;17.09.2020;
+3;Heilbronn;Dammstra e    ;415;21;01.10.2020;
+3;B ckingen; Klingenbergerstr    ;360;16;01.10.2020;
+3;B ckingen; Klingenbergerstr    ;360;16;01.10.2020;
+3;Heilbronn;Neckarsulmer Str 29 gegen  ;350;12;16.09.2020;
+2;Heilbronn;Neckarsulmer Str 29   ;350;16;16.09.2020;
+4;B ckingen; Friedenstr 44   ;375;15;01.10.2020;
+4;Heilbronn;Ilsfelder Str 9   ;380;10;20.09.2020;
+3;Heilbronn;Schickhardtstr 4    ;350;12;01.11.2020;
+6;Heilbronn;Kittlerstrasse 2    ;550;12;01.10.2020;
+4;Sontheim;Auf dem Bau 3  ;320;19;01.10.2020;28.02.2021
+4;Heilbronn;Charlottenstra e 2   ;389;22;01.11.2020;
+3;Heilbronn;Dammstra e    ;430;21;01.10.2020;
+4;Horkheim;31c     ;360;17;01.10.2020;31.03.2021
+4;Heilbronn;Herbert Hoover Str   ;250;10;01.10.2020;
+5;Heilbronn;Sichererstra e 18   ;475;19;01.10.2020;
+4;Neckargartach;Altb llinger Hof 4  ;265;12;01.10.2020;31.12.2022
+4;Heilbronn;Kernerstra e 62   ;373;20;30.09.2020;
+6;Heilbronn;Paulinenstra e 27   ;400;12;01.10.2020;
+3;B ckingen; Gro gartacher Str 162 ;370;15;01.10.2020;
+5;B ckingen; Adolf Alter Stra e 12;330;15;01.10.2020;
+5;Gemmingen;Nibelungenstra e 00   ;370;12;01.10.2020;
+3;Heilbronn;Fai tstr 10   ;390;13;01.10.2020;
+4;Sontheim;Hessigheimer Stra e 5  ;308;13;01.10.2020;01.04.2021
+3;Sontheim;Herderstra e 29 1  ;280;12;01.10.2020;
+4;Horkheim;Horkheimer Stra e 27  ;400;12;01.12.2020;
+7;Heilbronn;Wilhelmstrasse 17    ;400;20;01.10.2020;
+5;B ckingen; Ludwigsburgerstr 6   ;538;29;01.11.2020;
+5;B ckingen; Ludwigsburgerstr 61   ;340;12;01.12.2020;
+3;Heilbronn;Lixstra e    ;450;17;15.09.2020;
+5;Sontheim;     ;281;14;01.10.2020;
+2;Heilbronn;Lixstr     ;310;20;01.10.2020;
+3;B ckingen; Stedingerstra e 5  ;425;15;01.11.2020;
+3;Heilbronn;Weinsbergerstr     ;380;16;01.10.2020;
+5;Neckargartach;Frankenbacherstr 22    ;160;15;01.10.2020;
+4;Heilbronn;Gartenstrasse     ;370;16;01.10.2020;
+3;Nahe Hauptbahnhof; Herrmannstra e 26 ;380;16;01.10.2020;03.01.2021
+5;Heilbronn;Uhlandstra e 11 1  ;450;21;05.10.2020;
+3;Heilbronn;Kaiserstra e 8   ;450;24;03.10.2020;01.01.2021
+3;Kreuzgrund;Sperberweg 1    ;340;14;01.10.2020;
+5;B ckingen; Ludwigsburgerstr 61   ;340;11;01.12.2020;
+5;B ckingen; Ludwigsburgerstr 61   ;538;29;01.11.2020;
+3;Flein;Heilbronnerstr 48    ;334;16;01.10.2020;
+5;Neckargartach;Wimpfenerstrasse 23    ;440;16;01.11.2020;
+3;Ost;Kunzestr 12    ;361;22;01.10.2020;
+2;Heilbronn;Nordbergstrasse 27    ;575;17;01.01.2021;31.05.2021
+4;B ckingen; Friedenstra e 44  ;390;15;01.10.2020;
+3;Heilbronn;Weststr 34    ;380;10;15.09.2020;
+3;Heilbronn;Ost Kunzestrasse 12   ;290;13;01.10.2020;
+3;Heilbronn;Kunzestr 12    ;406;26;01.10.2020;
+4;Neckargartach;Mittelstr 25    ;330;12;28.03.2021;20.06.2021
+3;Heilbronn;Rosenbergstr 34    ;478;20;08.10.2020;
+4;Heilbronn;Ilsfelder Stra e 9  ;430;12;01.01.2021;
+3;Heilbronn;Dammstra e 13   ;450;20;15.09.2020;15.09.2022
+4;Heilbronn;Uhlandstra e 65   ;160;13;01.11.2020;
+2;B ckingen; Bruchsalerstr 24   ;350;12;30.07.2020;
+3;Heilbronn;Erhardgasse 3    ;425;23;01.10.2020;22.11.2020
+2;Sontheim;menzelstr     ;350;14;06.07.2020;29.12.2021
+3;Heilbronn;Birkenhof 5    ;450;16;01.08.2020;
+4;B ckingen; Seestra e 53  ;460;24;27.12.2020;28.03.2021
+4;Neckargartach;Altb llinger Hof 4  ;285;14;01.01.2021;31.12.2022
+2;Neckargartach;Liebermannstra e 2   ;515;16;01.10.2020;
+4;B ckingen; Friedenstra e   ;370;16;01.05.2020;
+3;Heilbronn;Weststra e 51   ;490;17;27.04.2020;19.12.2020
+3;Heilbronn;Dammstr 27    ;400;15;01.05.2020;30.06.2020
+3;Heilbronn;Bahnhofstr 6 B   ;400;15;15.01.2020;
+2;Zentrum;Stuttgarter     ;435;12;01.02.2020;01.08.2020
+3;B ckingen; Teichstra e   ;470;20;03.01.2020;
+3;Heilbronn;Lerchenstra e 10   ;280;12;23.12.2020;
+3;Heilbronn;Kilianstrase     ;490;20;22.10.2019;
+4;Sontheim;Kolpingstr     ;450;15;01.10.2019;
+2;Heilbronn;Paulinenstra e    ;370;16;09.12.2019;24.06.2020
+4;Heilbronn;Oststra e    ;330;20;01.06.2019;
+5;Heilbronn;Urbanstr 14    ;410;22;04.01.2019;
+3;Heilbronn;Charlottenstra e 2   ;267;15;01.01.2018;
+3;Heilbronn;Oststra e 23   ;410;19;14.10.2018;
+4;Heilbronn;Kernerstra e 62   ;330;18;01.01.2019;30.09.2020
+6;Heilbronn;Schaeufflenstr 25    ;463;16;15.11.2018;15.11.2019
+3;B ckingen; Im Kreuzgrund   ;420;16;01.07.2015;
