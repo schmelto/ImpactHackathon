@@ -16,14 +16,12 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.loadData();
-    console.log(this.data$);
     
   }
 
    loadData() {
     this.service.getTest().subscribe((data: any) => {
       this.data$ = data;
-      console.log(this.data$);
     });
   }
 

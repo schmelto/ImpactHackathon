@@ -1,6 +1,5 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
 const options = {responseType: 'text' as 'text'};
 // const options = {responseType: 'json' as 'json'};
 @Injectable({
