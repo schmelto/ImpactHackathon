@@ -8,27 +8,57 @@ import { TestService } from '../_services/test.service';
 })
 export class HomeComponent implements OnInit {
 
+  
+
   constructor(public service: TestService) { }
 
-  ngOnInit(): void {
-    console.log('Test');
-    console.log(this.service.getTest());
+  data$;
 
-    console.log('Test2');
-    var Http = new XMLHttpRequest();
-    var url='http://vortex.cubuzz.de:8500/api/v1/';
-    Http.open("GET", url);
-    Http.send();
-  
-    Http.onreadystatechange = (e) => {
-      console.log(Http.responseText)
-    }
+  ngOnInit() {
+    this.loadData();
+    console.log(this.data$);
+    
   }
 
-  test() {
-    console.log('Test');
-    console.log(this.service.getTest2());
+   loadData() {
+    this.service.getTest().subscribe((data: any) => {
+      this.data$ = data;
+      console.log(this.data$);
+    });
   }
+
 
 
 }
+
+
+//   console.log(this.service.getTest());
+
+  //   this.service.getTest().subscribe((data: any) => {
+  //     console.log("subscribe:" + data);
+  //   });
+
+
+
+
+  //   var Http = new XMLHttpRequest();
+  //   var url='http://vortex.cubuzz.de:8500/api/v1/';
+  //   Http.open("GET", url);
+  //   Http.send();
+  
+  //   Http.onreadystatechange = (e) => {
+  //     console.log(Http.responseText)
+  //   }
+  //   let varia;
+  //   this.service.getTest().subscribe((res) => {
+  //     varia = res;
+  //     console.log("subscribe:" + res);
+  //   });
+  //   console.log(varia);
+
+
+  // }
+
+  // test() {
+    
+  // }

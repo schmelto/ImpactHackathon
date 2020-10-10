@@ -1,24 +1,19 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-
+import { Observable } from 'rxjs';
+const options = {responseType: 'text' as 'text'};
+// const options = {responseType: 'json' as 'json'};
 @Injectable({
   providedIn: 'root'
 })
 export class TestService {
-
-  totalAngularPackages: any;
-  readonly BaseURI = "vortex.cubuzz.de:8500/api/v1";
+  
+  readonly BaseURI = "http://vortex.cubuzz.de:8500/api/v1/";
 
   constructor(private http: HttpClient) { }
 
   public getTest() {
-    return this.http.get(this.BaseURI);
-    
+    return this.http.get(this.BaseURI, options);
   }
-  public getTest2(){
-    this.http.get<any>(this.BaseURI).subscribe(data => {
-          this.totalAngularPackages = data.total;
-      })     
-      return this.totalAngularPackages; 
-    }
+
 }
