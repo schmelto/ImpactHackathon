@@ -1,6 +1,9 @@
-# require 'pg'
+# ARTEFACT
+# Archived
 
-# db = PG::Connection.new( user: 'root', dbname: 'postgres', port: 26200, host: 'localhost' )
+require 'pg'
+
+db = PG::Connection.new( user: 'root', dbname: 'postgres', port: 26200, host: 'localhost' )
 
 require 'csv'
 data = CSV.parse(File.read('./data_wggesucht.csv'), headers: true)
@@ -12,5 +15,6 @@ data.each do |row|
         row.push 'undef'
     end
     puts row.inspect
-    # db.
+    # ["4", "Heilbronn", "Ilsfelder Str 9   ", "380", "10", "20.09.2020", "undef"]
+    # query = db.exec 
 end
