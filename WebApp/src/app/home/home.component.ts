@@ -1,6 +1,4 @@
-import { localizedString } from '@angular/compiler/src/output/output_ast';
 import { Component, OnInit } from '@angular/core';
-import { loadavg } from 'os';
 import { TestService } from '../_services/test.service';
 
 @Component({
@@ -10,23 +8,25 @@ import { TestService } from '../_services/test.service';
 })
 export class HomeComponent implements OnInit {
 
-  products;
+  
 
   constructor(public service: TestService) { }
 
+  data$;
+
   ngOnInit() {
     this.loadData();
+    console.log(this.data$);
     
   }
 
-  loadData() {
-    this.service.getTest().subscribe((data: any)=>{
-      this.products = data;
-      console.log(this.products);
+   loadData() {
+    this.service.getTest().subscribe((data: any) => {
+      this.data$ = data;
+      console.log(this.data$);
     });
-
-    console.log(this.products);
   }
+
 
 
 }
