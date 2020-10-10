@@ -15,9 +15,6 @@ margin-left: auto;
 margin-right: auto;
 }
 
-a {
-    color: inherit;
-}
 
 .bottom {
     position: fixed;
@@ -25,3 +22,19 @@ a {
     transform: translate(-50%, 0);
     bottom: 4.5rem;
 }
+
+.text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+ }
+
+ .start {
+    position: fixed;
+    left: 50%;
+    top: 45vh;
+    transform: translate(-50%, 0);
+    text-align: center;
+ }

@@ -1,13 +1,21 @@
-<mat-card class="card">
+<div class="start" *ngIf="!currentdata$" >
+<button (click)="nextdata()" mat-fab color="accent">
+  <mat-icon>play_arrow</mat-icon>
+</button>
+
+<p><br>Before you start you may want to edit your filter and preferences <a href="/filter">here</a>.</p>
+
+</div>
+<mat-card class="card" *ngIf="currentdata$">
 
     <mat-card-header>
-        <mat-card-title>{{currentdata$.title}}</mat-card-title>
-        <mat-card-subtitle>{{currentdata$.type}}</mat-card-subtitle>
+        <mat-card-title>{{currentdata$.stadt}} - {{currentdata$.addresse}}</mat-card-title>
+        <mat-card-subtitle>Match Score: {{currentdata$.match_score}}</mat-card-subtitle>
       </mat-card-header>
-      <img mat-card-image class="img" src="{{currentdata$.imgurl}}" alt="Photo of a Shiba Inu">
+      <img mat-card-image class="img" src="{{currentdata$.prev_img[0]}}">
       <mat-card-content>
-        <p>
-          {{currentdata$.description}}
+        <p class="text">
+          {{currentdata$.beschreibung}}
         </p>
       </mat-card-content>
       <mat-card-actions>
@@ -19,15 +27,15 @@
 
 </mat-card>
 
-<div class="bottom">
+<div class="bottom" *ngIf="currentdata$">
   <div class="row">
     <div class="col">
-      <button (click)="nextdata()" mat-fab color="primary" aria-label="Example icon button with a delete icon">
+      <button (click)="nextdata()" mat-fab color="primary" aria-label="No">
         <mat-icon>thumb_down</mat-icon>
       </button>
     </div>
     <div class="col">
-      <button (click)="nextdata()" mat-fab color="accent" aria-label="Example icon button with a delete icon">
+      <button (click)="nextdata()" mat-fab color="accent" aria-label="Yes">
         <mat-icon>thumb_up</mat-icon>
       </button>
   </div>
