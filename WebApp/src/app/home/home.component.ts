@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TestService } from '../_services/test.service';
+import {MatDialog} from '@angular/material/dialog';
 
 @Component({
   selector: 'app-home',
@@ -10,7 +11,11 @@ export class HomeComponent implements OnInit {
 
   
 
-  constructor(public service: TestService) { }
+  constructor(public service: TestService,public dialog: MatDialog) { }
+
+  openDialog(){
+    this.dialog.open(DialogElementsExampleDialog);
+  }
   index = 0;
   currentdata$;
   data$ = [
@@ -71,6 +76,14 @@ export class HomeComponent implements OnInit {
   }
 
 
+
+}
+
+@Component({
+  selector: 'dialog-elements-example-dialog',
+  templateUrl: 'dialog-elements-example-dialog.html',
+})
+export class DialogElementsExampleDialog {
 
 }
 
