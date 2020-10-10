@@ -13,6 +13,7 @@ import { ProfilComponent } from './profil/profil.component';
 import { ChatComponent } from './chat/chat.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PageNotFoundComponent } from './_template/page-not-found/page-not-found.component';
+import { DetailsDialog } from './home/home.component'
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PageNotFoundComponent } from './_template/page-not-found/page-not-found
     FilterComponent,
     ProfilComponent,
     ChatComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    DetailsDialog
   ],
   imports: [
     BrowserModule,
