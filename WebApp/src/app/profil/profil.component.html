@@ -1,18 +1,32 @@
 <h1>Profil</h1>
 
-<mat-card class="card">
-    <mat-card-header>
-        <mat-card-title>John Doe</mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        <p>
-          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-          A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-          bred for hunting.
-        </p>
-      </mat-card-content>
-      <mat-card-actions>
-        <button mat-button>LIKE</button>
-        <button mat-button>SHARE</button>
-      </mat-card-actions>
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>Peter Meter</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image src="https://cdn.cubuzz.de/static/peter.png" alt="Profilepicture">
+  <mat-card-content>
+    <h2>General Information</h2>
+    <mat-slide-toggle checked="checked">Active advertisement</mat-slide-toggle>
+    <mat-form-field appearance="fill">
+      <mat-label>Date of birth</mat-label>
+      <input matInput value="01/05/2000">
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker ></mat-datepicker>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>E-Mail</mat-label>
+      <input matInput value="Peter@Meter.de">
+    </mat-form-field>
+
+
+    <h2>Your social facts</h2>
+
+
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>EDIT</button>
+    <button mat-button>FEEDBACK</button>
+    <button mat-button>DEACTIVATE</button>
+  </mat-card-actions>
 </mat-card>
