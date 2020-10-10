@@ -34,7 +34,10 @@ export class HomeComponent implements OnInit {
       console.log(data)
     });
   }
-
+  nextdata() {
+    this.index = 0;
+    this.currentdata$ = this.data$[this.index];
+  }
   nextdata1() {
     this.index++;
     this.currentdata$ = this.data$[this.index];
@@ -43,7 +46,7 @@ export class HomeComponent implements OnInit {
   nextdata2() {
     this._snackBar.openFromComponent(MatchDialog, {
       duration: 3 * 1000,
-      verticalPosition: 'top',
+      verticalPosition: 'top', horizontalPosition:'center',
     });
     console.log(this.index);
     this.index++;

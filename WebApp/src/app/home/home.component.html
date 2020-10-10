@@ -1,9 +1,10 @@
-<div class="start" *ngIf="!currentdata$" >
-<button (click)="nextdata1()" mat-fab color="accent">
-  <mat-icon>play_arrow</mat-icon>
-</button>
-
-<p><br>Before you start you may want to edit your filter and preferences <a href="/filter">here</a>.</p>
+<div class="start" *ngIf="!currentdata$ || index < 0" >
+<button (click)="nextdata()" mat-fab color="accent">
+  <mat-icon *ngIf="index < 0">play_arrow</mat-icon>
+  <mat-icon *ngIf="index > 0">replay</mat-icon>
+</button><br><br>
+<p *ngIf="index > 0">You reached the end.</p>
+<p>Before you start <span *ngIf="index > 0">again</span> you may want to edit your filter and preferences <a href="/filter">here</a>.</p>
 
 </div>
 <mat-card class="card" *ngIf="currentdata$">
