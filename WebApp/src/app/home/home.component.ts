@@ -1,6 +1,7 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { TestService } from '../_services/test.service';
 import {MatDialog, MAT_DIALOG_DATA} from '@angular/material/dialog';
+import {MatSnackBar} from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-home',
@@ -11,7 +12,7 @@ export class HomeComponent implements OnInit {
 
   
 
-  constructor(public service: TestService,public dialog: MatDialog) { }
+  constructor(public service: TestService,public dialog: MatDialog, private _snackBar: MatSnackBar) { }
 
   openDialog(){
     this.dialog.open(DialogElementsExampleDialog, {data: this.currentdata$});
@@ -34,7 +35,16 @@ export class HomeComponent implements OnInit {
     });
   }
 
-  nextdata() {
+  nextdata1() {
+    this.index++;
+    this.currentdata$ = this.data$[this.index];
+  }
+
+  nextdata2() {
+    this._snackBar.openFromComponent(MatchDialog, {
+      duration: 3 * 1000,
+      verticalPosition: 'top',
+    });
     console.log(this.index);
     this.index++;
     this.currentdata$ = this.data$[this.index];
@@ -54,6 +64,14 @@ export class HomeComponent implements OnInit {
 })
 export class DialogElementsExampleDialog {
   constructor(@Inject(MAT_DIALOG_DATA) public data: any) {}
+}
+
+@Component({
+  selector: 'match-dialog',
+  templateUrl: 'match-dialog.html',
+})
+export class MatchDialog {
+  
 }
 
 
