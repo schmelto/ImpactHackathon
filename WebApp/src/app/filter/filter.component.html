@@ -1,1 +1,117 @@
 <h1>Filter</h1>
+<p>What are you searching for?</p>
+<mat-card>
+  <mat-card-content>
+
+    <h2 class="example-h2">City</h2>
+    <section class="example-section">
+      <mat-form-field class="example-full-width">
+        <input matInput value="74072">
+      </mat-form-field>
+    </section>
+
+    <h2 class="example-h2">Flattype</h2>
+    <section class="example-section">
+      <mat-checkbox class="example-margin" (click)="sharedFlatClick()">shared flat</mat-checkbox>
+      <mat-checkbox class="example-margin" (click)="flatClick()">flat</mat-checkbox>
+    </section>
+
+    <h2 class="example-h2">Perfect price</h2>
+    <section class="example-section">
+      <mat-slider thumbLabel min="200" max="1000" step="50" value="450"></mat-slider>
+    </section>
+
+    <h2 class="example-h2" *ngIf="noOfRooms">Number of rooms</h2>
+    <section class="example-section" *ngIf="noOfRooms">
+      <mat-checkbox class="example-margin">1</mat-checkbox>
+      <mat-checkbox class="example-margin">2</mat-checkbox>
+      <mat-checkbox class="example-margin">3</mat-checkbox>
+      <mat-checkbox class="example-margin">4</mat-checkbox>
+      <mat-checkbox class="example-margin">5</mat-checkbox>
+    </section>
+
+
+    <h2 class="example-h2">Infrastructure</h2>
+    <section class="example-section">
+      <mat-checkbox class="example-margin" (click)="infrastructureClick()"> Is important to me.</mat-checkbox>
+    </section>
+    <section class="example-section" *ngIf="infrastructure">
+      <mat-checkbox class="example-margin">nature</mat-checkbox>
+      <mat-slider thumbLabel min="1" max="5" step="1" value="3"></mat-slider>
+    </section>
+    <section class="example-section" *ngIf="infrastructure">
+      <mat-checkbox class="example-margin">public transport</mat-checkbox>
+      <mat-slider thumbLabel min="1" max="5" step="1" value="3"></mat-slider>
+    </section>
+    <section class="example-section" *ngIf="infrastructure">
+      <mat-checkbox class="example-margin">shopping</mat-checkbox>
+      <mat-slider thumbLabel min="1" max="5" step="1" value="3"></mat-slider>
+    </section>
+    <section class="example-section" *ngIf="infrastructure">
+      <mat-checkbox class="example-margin">fitness</mat-checkbox>
+      <mat-slider thumbLabel min="1" max="5" step="1" value="3"></mat-slider>
+    </section>
+    <section class="example-section" *ngIf="infrastructure">
+      <mat-checkbox class="example-margin">parking</mat-checkbox>
+      <mat-slider thumbLabel min="1" max="5" step="1" value="3"></mat-slider>
+    </section>
+    <section class="example-section" *ngIf="infrastructure">
+      <mat-checkbox class="example-margin">supermarket</mat-checkbox>
+      <mat-slider thumbLabel min="1" max="5" step="1" value="3"></mat-slider>
+    </section>
+
+    <h2 class="example-h2" *ngIf="perfectFlatMates">Social facts</h2>
+    <section class="example-section" *ngIf="perfectFlatMates">
+      <mat-checkbox class="example-margin" (click)="socialFactsClick()"> I want to find my perfect flat mates.</mat-checkbox>
+    </section>
+
+    <h3 class="example-h2" *ngIf="socialFacts">Social facts of your future shared flat</h3>
+    <section class="example-section" *ngIf="socialFacts">
+      <mat-checkbox class="example-margin">non-smoking</mat-checkbox>
+      <mat-checkbox class="example-margin">non-drinking</mat-checkbox>
+    </section>
+    <section class="example-section" *ngIf="socialFacts">
+      <mat-checkbox class="example-margin">animals allowed</mat-checkbox>
+    </section>
+    <section class="example-section" *ngIf="socialFacts">
+      <mat-radio-group>
+        <mat-radio-button class="example-margin" value=1>introverted</mat-radio-button>
+        <mat-radio-button class="example-margin" value=2>extroverted</mat-radio-button>
+      </mat-radio-group>
+    </section>
+    <section class="example-section" *ngIf="socialFacts">
+      <mat-form-field class="example-full-width">
+        <input matInput value="INTJ">
+      </mat-form-field>
+    </section>
+    <section class="example-section" *ngIf="socialFacts">
+      <mat-radio-group>
+        <mat-radio-button class="example-margin" value=1>purpose shared flat</mat-radio-button>
+        <mat-radio-button class="example-margin" value=2>convivial </mat-radio-button>
+      </mat-radio-group>
+    </section>
+
+    <h3 class="example-h2" *ngIf="socialFacts">Hobbies of your future flat mates</h3>
+    <section class="example-section" *ngIf="socialFacts">
+          <mat-checkbox class="example-margin">reading</mat-checkbox>
+          <mat-checkbox class="example-margin">traveling</mat-checkbox>
+          <mat-checkbox class="example-margin">fishing</mat-checkbox>
+    </section>
+    <section class="example-section" *ngIf="socialFacts">
+      <mat-checkbox class="example-margin">television</mat-checkbox>
+      <mat-checkbox class="example-margin">collecting</mat-checkbox>
+      <mat-checkbox class="example-margin">music</mat-checkbox>
+    </section>
+    <section class="example-section" *ngIf="socialFacts">
+      <mat-checkbox class="example-margin">video games</mat-checkbox>
+      <mat-checkbox class="example-margin">fitness</mat-checkbox>
+      <mat-checkbox class="example-margin">golf</mat-checkbox>
+    </section>
+    <section class="example-section" *ngIf="socialFacts">
+      <mat-checkbox class="example-margin">sleeping</mat-checkbox>
+      <mat-checkbox class="example-margin">coding</mat-checkbox>
+      <mat-checkbox class="example-margin">cooking</mat-checkbox>
+    </section>
+
+  </mat-card-content>
+</mat-card>
