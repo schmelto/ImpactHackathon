@@ -9,8 +9,5 @@
     <b>non smoking:</b> {{data.non_smoking}}<br>
     <b>hobbies:</b>
     <p *ngFor="let x of data.hobbies; let i = index">{{data.hobbies[i]}}</p>
+    <img *ngFor="let img of data.prev_img; let i = index" width="100%" src="{{data.prev_img[i]}}">
 </div>
-
-<!-- <img *ngFor="let img of data.prev_img; let i = index" src="{{data.prev_img[i]"> -->
-
-<!-- TODO: prev_img -->
