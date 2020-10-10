@@ -10,8 +10,6 @@ import {MatSnackBar} from '@angular/material/snack-bar';
 })
 export class HomeComponent implements OnInit {
 
-  
-
   constructor(public service: TestService,public dialog: MatDialog, private _snackBar: MatSnackBar) { }
 
   openDialog(){
@@ -29,7 +27,6 @@ export class HomeComponent implements OnInit {
    loadData() {
     this.service.getTest().subscribe((data: any) => {
       this.data$ = data;
-      console.log(data)
     });
   }
 
