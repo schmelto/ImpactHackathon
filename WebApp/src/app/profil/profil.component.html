@@ -2,30 +2,31 @@
 
 <mat-card class="example-card">
   <mat-card-header>
-    <mat-card-title>Peter Meter</mat-card-title>
+    <mat-card-title>{{data$['vorname']}} {{data$['nachname']}}</mat-card-title>
   </mat-card-header>
-  <img mat-card-image src="https://cdn.cubuzz.de/static/peter.png" alt="Profilepicture">
+  <img mat-card-image src="{{data$['profpic_url']}}" alt="Profilepicture">
   <mat-card-content>
     <h2>General Information</h2>
     <mat-slide-toggle checked="checked">Active advertisement</mat-slide-toggle>
     <mat-form-field appearance="fill">
       <mat-label>Date of birth</mat-label>
-      <input matInput value="01/05/2000">
+      <input matInput value="{{data$['geburtsdatum']}}">
       <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
       <mat-datepicker #picker ></mat-datepicker>
     </mat-form-field>
     <mat-form-field appearance="fill">
       <mat-label>E-Mail</mat-label>
-      <input matInput value="Peter@Meter.de">
+      <input matInput value="{{data$['email']}}">
     </mat-form-field>
     <mat-form-field appearance="fill">
       <mat-label>Profession</mat-label>
         <select matNativeControl>
-          <option value="student">Student</option>
+          <option value="student">{{data$['beschreibung']}}</option>
         </select>
     </mat-form-field>
 
     <h2>Your social facts</h2>
+    <h3>General</h3>
     <section class="example-section">
       <mat-checkbox class="example-margin" checked="checked">non-smoking</mat-checkbox>
       <mat-checkbox class="example-margin">non-drinking</mat-checkbox>
@@ -35,7 +36,7 @@
       <mat-checkbox class="example-margin" checked="checked">extroverted</mat-checkbox>
       <mat-checkbox class="example-margin" checked="checked">convivial</mat-checkbox>
     </section>
-    <h2>Hobbies</h2>
+    <h3>Hobbies</h3>
     <section class="example-section">
       <mat-checkbox class="example-margin" checked="checked">video games</mat-checkbox>
       <mat-checkbox class="example-margin" checked="checked">fitness</mat-checkbox>

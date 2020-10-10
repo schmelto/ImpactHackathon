@@ -24,8 +24,6 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.loadData();
     this.currentdata$ = this.data$[this.index];
-    
-    
   }
 
    loadData() {
@@ -34,10 +32,12 @@ export class HomeComponent implements OnInit {
       console.log(data)
     });
   }
+
   nextdata() {
     this.index = 0;
     this.currentdata$ = this.data$[this.index];
   }
+
   nextdata1() {
     this.index++;
     this.currentdata$ = this.data$[this.index];
@@ -45,7 +45,7 @@ export class HomeComponent implements OnInit {
 
   nextdata2() {
     this._snackBar.openFromComponent(MatchDialog, {
-      duration: 3 * 1000,
+      duration: 3000,
       verticalPosition: 'top', horizontalPosition:'center',
     });
     console.log(this.index);
@@ -53,17 +53,11 @@ export class HomeComponent implements OnInit {
     this.currentdata$ = this.data$[this.index];
   }
 
-  test() {
-    console.log("Test");
-  }
-
-
-
 }
 
 @Component({
-  selector: 'dialog-elements-example-dialog',
-  templateUrl: 'dialog-elements-example-dialog.html',
+  selector: 'details-dialog',
+  templateUrl: 'details-dialog.html',
 })
 export class DialogElementsExampleDialog {
   constructor(@Inject(MAT_DIALOG_DATA) public data: any) {}
@@ -76,35 +70,3 @@ export class DialogElementsExampleDialog {
 export class MatchDialog {
   
 }
-
-
-//   console.log(this.service.getTest());
-
-  //   this.service.getTest().subscribe((data: any) => {
-  //     console.log("subscribe:" + data);
-  //   });
-
-
-
-
-  //   var Http = new XMLHttpRequest();
-  //   var url='http://vortex.cubuzz.de:8500/api/v1/';
-  //   Http.open("GET", url);
-  //   Http.send();
-  
-  //   Http.onreadystatechange = (e) => {
-  //     console.log(Http.responseText)
-  //   }
-  //   let varia;
-  //   this.service.getTest().subscribe((res) => {
-  //     varia = res;
-  //     console.log("subscribe:" + res);
-  //   });
-  //   console.log(varia);
-
-
-  // }
-
-  // test() {
-    
-  // }
