@@ -33,6 +33,12 @@ server.mount_proc '/api/v1/search/dummy' do |req, res|
     res.body = api.dummy_search(12345)
 end
 
+server.mount_proc '/api/v1/user' do |req, res|
+    res.header['Access-Control-Allow-Origin'] = policy_cors()
+    puts req.query
+    res.body = api.get_user(req.query['uid'])
+end
+
 server.mount_proc '/reload' do |req, res|
     res.body = '200 OK'
     begin
