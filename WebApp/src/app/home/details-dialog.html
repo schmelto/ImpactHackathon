@@ -1,0 +1,13 @@
+<h1 mat-dialog-title>{{data.stadt}}</h1>
+<div mat-dialog-content>
+    <b>{{data.addresse}}</b>
+    <p>{{data.beschreibung}}</p>
+    <b>residents:</b> {{data.bewohner}}<br>
+    <b>distance:</b> {{data.distance}} km<br>
+    <b>price:</b> {{data.preis}} EUR<br>
+    <b>sqm:</b> {{data.sqm}}<br>
+    <b>non smoking:</b> {{data.non_smoking}}<br>
+    <b>hobbies:</b>
+    <p *ngFor="let x of data.hobbies; let i = index">{{data.hobbies[i]}}</p>
+    <img *ngFor="let img of data.prev_img; let i = index" width="100%" src="{{data.prev_img[i]}}">
+</div>

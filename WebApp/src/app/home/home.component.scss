@@ -2,19 +2,9 @@
     margin-bottom: 4.5rem;
 }
 
-.example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
-  }
-
 #share {
     float: right;
 }
-.center {
-margin-left: auto;
-margin-right: auto;
-}
-
 
 .bottom {
     position: fixed;
@@ -29,12 +19,12 @@ margin-right: auto;
     display: -webkit-box;
     -webkit-line-clamp: 4; /* number of lines to show */
     -webkit-box-orient: vertical;
- }
+}
 
- .start {
+.start {
     position: fixed;
     left: 50%;
     top: 45vh;
     transform: translate(-50%, 0);
     text-align: center;
- }
+}
