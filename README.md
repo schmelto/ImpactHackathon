@@ -16,6 +16,14 @@ Repository for the Impact Hackathon 2020 of Campus Founders.
 
 ## The challenge
 
+### All challanges of the #ImpactHackathon
+
+1. **FoodWaste challenge hosted by [Schwarz Group](https://www.linkedin.com/company/schwarzdienstleistungen/):** How could food waste be reduced among consumers and retailers without endangering the prosperity of both parties?
+2. **CampusLife challenge hosted by [Fraunhofer IAO](https://www.iao.fraunhofer.de):** How can data support finding the perfect residential neighborhood to live in?
+3. **FutureEducation Challenge hosted by [Campus Founders](https://campusfounders.de/):** How can a combination of online and offline formats ensure equal opportunities in education?
+
+### Our team has chosen:
+
 **#CampusLife challenge hosted by [Fraunhofer IAO](https://www.iao.fraunhofer.de):** How can data support finding the perfect residential neighborhood to live in?
 
 
@@ -39,11 +47,6 @@ Repository for the Impact Hackathon 2020 of Campus Founders.
 * Backend: Ruby + Cockroach DB
 
 
-### All challanges of the #ImpactHackathon
-
-1. **FoodWaste challenge hosted by [Schwarz Group](https://www.linkedin.com/company/schwarzdienstleistungen/):** How could food waste be reduced among consumers and retailers without endangering the prosperity of both parties?
-2. **CampusLife challenge hosted by [Fraunhofer IAO](https://www.iao.fraunhofer.de):** How can data support finding the perfect residential neighborhood to live in?
-3. **FutureEducation Challenge hosted by [Campus Founders](https://campusfounders.de/):** How can a combination of online and offline formats ensure equal opportunities in education?
 
 
-*Note: the logo is just a parody.*
+*Note: the finder-logo is just a parody.*
