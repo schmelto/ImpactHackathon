@@ -1,5 +1,5 @@
-# ImpactHackathon
-Repository for the Impact Hackathon 2020 of Campus Founders.
+# #ImpactHackathon
+Repository for the **#ImpactHackathon 2020** of Campus Founders.
 
 * **Start:** 5:00 PM Friday 9th October 2020
 * **End:** 4:00 PM Sunday 11th October 2020
@@ -37,6 +37,8 @@ Repository for the Impact Hackathon 2020 of Campus Founders.
     * **social filter options** like hobbies, where it would be great if the future roommates have them
   * the perfect offers are determined based on the filter parameters of the users
   * and the name is "finder"
+  
+![finder](/FinderLogo/logo-transparent.png)
 
 **=> and "finder" has won the 2nd place in the #CampusLife challenge :boom:**
 
@@ -45,8 +47,6 @@ Repository for the Impact Hackathon 2020 of Campus Founders.
 
 * Frontend: Angular + Angular Material
 * Backend: Ruby + Cockroach DB
-
-
 
 
 *Note: the finder-logo is just a parody.*
